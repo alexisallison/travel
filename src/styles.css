@@ -1,0 +1,39 @@
+:root {
+  --first-color: #3b939b;
+  --second-color: #2f8189;
+  --third-color: #91f3fc;
+  --fourth-color: #c9fbff;
+  --header-font: "Philosopher", sans-serif;
+  --body-font: "Mulish", sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 h2 h3 {
+  font-family: var(--header-font);
+}
+
+h1 {
+  font-size: 96px;
+  line-height: 144px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+button {
+  font-family: var(--body-font);
+  font-size: 14px;
+  line-height: 21px;
+  padding: 16px 32px;
+  background: var(--fourth-color);
+}
